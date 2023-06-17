@@ -1,0 +1,139 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ebebeb; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 36px;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label-icon {
+  margin-right: 10px;
+}
+
+.label-text {
+  font-weight: bold;
+  color: #555;
+  font-size: 18px;
+}
+
+.form-select,
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.form-select:focus,
+.form-input:focus {
+  border-bottom-color: #007bff;
+}
+
+.form-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-submit:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  margin-top: 10px;
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.result-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+}
+
+.result-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+}
+
+.result {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.back-link {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.back-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

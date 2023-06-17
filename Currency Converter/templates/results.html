@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="result-container">
+    <h2 class="result-title">Conversion Result</h2>
+    <p class="result">{{ amount }} {{ currency_from }} = {{ result }} {{ currency_to }}</p>
+    <a class="back-link" href="/">Convert Another Currency</a>
+</div>
+{% endblock %}
+
+<link rel="stylesheet" href="/static/currency.css">
+
+
